@@ -1,0 +1,109 @@
+body {
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: fantasy;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+  color: rgb(0, 0, 0);
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 99vh;
+}
+
+.guest-input-container {
+  padding: 1rem;
+  width: 25rem;
+}
+
+.guest-input-container select {
+  color: rgb(0, 0, 0);
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.5rem;
+}
+
+.mandatory-text {
+  color: rgb(255, 0, 0);
+  margin-top: 0.2rem;
+  font-size: 0.8rem;
+}
+
+.button {
+  color: rgb(255, 255, 255);
+  border: none;
+  background: rgb(0, 0, 0);
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.5rem;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: rgb(20, 20, 20);
+}
+
+.main-poster-container button {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 25rem;
+}
+
+.poster-container {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.5rem;
+  height: 50rem;
+  width: 35rem;
+}
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .main-container {
+    max-width: 75rem;
+  }
+
+  .text-container {
+    width: 15rem;
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
+  }
+
+  .text-container h1 {
+    font-size: 2.5rem;
+  }
+
+  .guest-input-container {
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
+    width: 10rem;
+  }
+
+  .main-poster-container button {
+    font-size: 10px;
+    width: 15rem;
+  }
+
+  .poster-container {
+    margin-top: 5rem;
+    height: 30rem;
+    width: 20rem;
+  }
+}
