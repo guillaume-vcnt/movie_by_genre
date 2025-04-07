@@ -2,20 +2,13 @@
 
 ## À propos
 
-Ce mini projet a pour objectif de développer une page web qui permette de visualiser des données de façon dynamique. Ici l'utilisateur peut recevoir des recommandations de
-films générées selon un filtre de genre précis.
+Ce mini-projet a pour objectif de développer une page web qui permette de visualiser des données de façon dynamique. Ici, l'utilisateur peut afficher des films générés selon un filtre de genre précis.
 
 ## Caractéristiques
 
 État du projet : Terminé
 
 Technologies : JavaScript, HTML, CSS
-
-Refactorisation : Non
-
-Responsive : Oui
-
-UI/UX : Non
 
 IDE : VSCode
 
